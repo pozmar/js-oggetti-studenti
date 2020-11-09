@@ -31,7 +31,6 @@ var studenti = [
 ];
 //con il for vado a scorrere tutti gli oggetti dentro all'array
 for(var i = 0; i < studenti.length; i++){
-  //con il for...in prendo le chiavi dentro agli oggetti
   $(".box").append("<h4>" + "Nome: " + studenti[i].nome + "</h4>");
   $(".box").append("<h4>" + "Cognome: " + studenti[i].cognome + "</h4>" + "<br>");
 
